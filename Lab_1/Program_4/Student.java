@@ -43,6 +43,20 @@ public class Student {
         return grades;
     }
 
+    String grade(int grade) {
+        String grade_string = "";
+        if (grade == 0) {
+            grade_string = "FAIL";
+        } else if (grade == 1) {
+            grade_string = "PASS";
+        } else if (grade == 2) {
+            grade_string = "MERIT";
+        } else {
+            grade_string = "DISTINCTION";
+        }
+        return grade_string;
+    }
+
     public static void main(String[] args) {
         Student s = new Student();
         int[] marks = s.accept_marks();
@@ -50,16 +64,7 @@ public class Student {
         int[] grades = s.convert_grades(sorted_marks);
         System.out.println("Marks \tGrades ");
         for (int i = 0; i < 10; i++) {
-            String grade;
-            if (grades[i] == 0) {
-                grade = "FAIL";
-            } else if (grades[i] == 1) {
-                grade = "PASS";
-            } else if (grades[i] == 2) {
-                grade = "MERIT";
-            } else {
-                grade = "DISTINCTION";
-            }
+            String grade = s.grade(grades[i]);
             System.out.println(sorted_marks[i] + "\t" + grade);
         }
     }
