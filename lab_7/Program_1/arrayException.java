@@ -1,6 +1,6 @@
 // Write a program in Java to display the names and roll numbers of students. Initialize respective array variables for 10 students. Handle ArrayIndexOutOfBoundsExeption, so that any such problem doesn’t cause illegal termination of program
 
-package lab_7.Program_1;
+package Lab_7.Program_1;
 
 import java.util.Scanner;
 

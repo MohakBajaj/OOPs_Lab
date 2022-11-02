@@ -3,7 +3,7 @@
 // • If an employee age is greater than 50, an age exception must be thrown. 
 // • Or else an object must be created for the entered employee details
 
-package lab_7.program_5;
+package Lab_7.program_5;
 
 public class employee {
     String name;

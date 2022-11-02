@@ -1,6 +1,6 @@
 // On a single track two vehicles are running. As vehicles are going in same direction there is no problem. If the vehicles are running in different direction there is a chance of collision. To avoid collisions write a Java program using exception handling. You are free to make necessary assumptions.
 
-package lab_7.Program_4;
+package Lab_7.Program_4;
 
 class vehicle {
     public int direction;

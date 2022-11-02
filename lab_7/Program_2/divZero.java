@@ -1,5 +1,5 @@
 // Write a Java program to enable the user to handle any chance of divide by zero exception. 
-package lab_7.Program_2;
+package Lab_7.Program_2;
 
 public class divZero {
     public void div(int a, int b) throws ArithmeticException {

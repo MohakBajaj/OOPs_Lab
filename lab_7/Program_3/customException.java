@@ -1,6 +1,6 @@
 // Create an exception class, which throws an exception if operand is nonnumeric in calculating modules. (Use command line arguments). 
 
-package lab_7.Program_3;
+package Lab_7.Program_3;
 
 public class customException {
     public void mod(String a, String b) throws NonNumericException {
